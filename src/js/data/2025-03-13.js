@@ -65,7 +65,7 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "No Altnerate Costume Servants",
+    name: "No Alternate Costume Servants",
     key: "alt",
     tooltip: "Check to enable the appearance of seasonal character alts. This does not include Alter servants.",
     checked: false,
@@ -4009,7 +4009,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Huang Tianhua",
-    img: "1k9Yu2S",
+    img: "1k9Yu2S.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
@@ -4115,7 +4115,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Pope Johanna",
     img: "ycayPoL.png",
     opts: {
-      class: [ "ruelr"],
+      class: [ "ruler"],
       gender: ["f"],
       rarity: ["5"],
     }
