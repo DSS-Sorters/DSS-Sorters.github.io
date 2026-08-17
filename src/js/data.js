@@ -15,11 +15,13 @@ const dataSet = {};
  * 
  * @example '2018-02-20'
 */
-let dataSetVersion = '2025-03-13';
+//let dataSetVersion = '2025-03-13';
+let dataSetVersion = '2026-08-17';
 
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://i.imgur.com/';
-//const imageRoot = 'src/assets/chars';
+//const imageRoot = 'https://i.imgur.com/';
+//const imageRoot = '/assets/';
 //const imageRoot = 'https://cdn.imgchest.com/files/'
+const imageRoot = 'https://dss-sorters.github.io/src/assets/chars/'
