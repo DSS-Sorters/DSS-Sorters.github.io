@@ -119,6 +119,44 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to exclude servants that are collabs with other Type-Moon Media.",
     checked: false,
   },
+  {
+    name: "Filter by Year (JP)",
+    key: "yearJP",
+    tooltip: "Check this to filter servants by release year in the Japanese server.",
+    checked: false,
+    sub: [
+      { name: "2015", tooltip: "filter 2015 Servants", key: "2015" },
+      { name: "2016", tooltip: "filter 2016 Servants", key: "2016" },
+      { name: "2017", tooltip: "filter 2017 Servants", key: "2017" },
+      { name: "2018", tooltip: "filter 2018 Servants", key: "2018" },
+      { name: "2019", tooltip: "filter 2019 Servants", key: "2019" },
+      { name: "2020", tooltip: "filter 2020 Servants", key: "2020" },
+      { name: "2021", tooltip: "filter 2021 Servants", key: "2021" },
+      { name: "2022", tooltip: "filter 2022 Servants", key: "2022" },
+      { name: "2023", tooltip: "filter 2023 Servants", key: "2023" },
+      { name: "2024", tooltip: "filter 2024 Servants", key: "2024" },
+      { name: "2025", tooltip: "filter 2025 Servants", key: "2025" },
+      { name: "2026", tooltip: "filter 2026 Servants", key: "2026" },
+    ]
+  },
+  {
+    name: "Filter by Year (NA)",
+    key: "yearNA",
+    tooltip: "Check this to filter servants by release year in the NA server.",
+    checked: false,
+    sub: [
+      { name: "2017", tooltip: "filter 2017 Servants", key: "2017" },
+      { name: "2018", tooltip: "filter 2018 Servants", key: "2018" },
+      { name: "2019", tooltip: "filter 2019 Servants", key: "2019" },
+      { name: "2020", tooltip: "filter 2020 Servants", key: "2020" },
+      { name: "2021", tooltip: "filter 2021 Servants", key: "2021" },
+      { name: "2022", tooltip: "filter 2022 Servants", key: "2022" },
+      { name: "2023", tooltip: "filter 2023 Servants", key: "2023" },
+      { name: "2024", tooltip: "filter 2024 Servants", key: "2024" },
+      { name: "2025", tooltip: "filter 2025 Servants", key: "2025" },
+      { name: "2026", tooltip: "filter 2026 Servants", key: "2026" },
+    ]
+  },
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -129,6 +167,8 @@ dataSet[dataSetVersion].characterData = [
       class: [ "shielder"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
@@ -139,6 +179,8 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
@@ -149,6 +191,8 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
 
@@ -161,6 +205,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["4"],
       face: ["saber"],
       extra: ["welfare"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     },
   },
   {
@@ -171,258 +217,316 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Siegfried",
-    img: "BualUQf.png",
+    img: "Siegfried.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Gaius Julius Caesar",
-    img: "lVWFb60.png",
+    img: "Caesar.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Altera",
-    img: "klGutPM.png",
+    img: "Altera.png",
     opts: {
       class: [ "saber"],
       gender: ["f"],
-      rarity: ["5"]
+      rarity: ["5"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Gilles de Rais (Saber)",
-    img: "3Gndfd1.png",
+    img: "Gilles_Saber.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Chevalier d'Eon",
-    img: "AfbeJDl.png",
+    img: "Chevalier_d'Eon.png",
     opts: {
       class: [ "saber"],
       gender: ["u"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "EMIYA (Archer)",
-    img: "ybwqh7H.png",
+    img: "EMIYA.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Gilgamesh",
-    img: "sCAt623.png",
+    img: "Gilgamesh.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
-      rarity: ["5"]
+      rarity: ["5"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Robin Hood",
-    img: "244xRO0.png",
+    img: "Robin_Hood.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Atalante",
-    img: "QDYc6Xk.png",
+    img: "Atalante.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Euryale",
-    img: "1LxMt5j.png",
+    img: "Euryale.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Arash",
-    img: "NCVvMEu.png",
+    img: "Arash.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
-      rarity: ["1"]
+      rarity: ["1"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Cú Chulainn (Lancer)",
-    img: "Zs4acYt.png",
+    img: "Cú_Chulainn.png",
     opts: {
       class: [ "lancer"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Elizabeth Báthory (Lancer)",
-    img: "dzUFvfx.png",
+    img: "Elizabeth_Lancer.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Musashibō Benkei",
-    img: "jrxlwkq.png",
+    img: "Musashibō_Benkei.png",
     opts: {
       class: [ "lancer"],
       gender: ["m"],
-      rarity: ["2"]
+      rarity: ["2"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Cú Chulainn (Prototype)",
-    img: "dSWFTSW.png",
+    img: "Cú_Chulainn_Prototype.png",
     opts: {
       class: [ "lancer"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Leonidas I",
-    img: "5sAdhZh.png",
+    img: "Leonidas_I.png",
     opts: {
       class: [ "lancer"],
       gender: ["m"],
-      rarity: ["2"]
+      rarity: ["2"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Romulus",
-    img: "8b1KSj2.png",
+    img: "Romulus.png",
     opts: {
       class: [ "lancer"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Medusa (Rider)",
-    img: "h7imiaY.png",
+    img: "Medusa.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Georgios",
-    img: "Q4arUK5.png",
+    img: "Georgios.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
-      rarity: ["2"]
+      rarity: ["2"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Edward Teach",
-    img: "gg8L47W.png",
+    img: "Edward_Teach.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
-      rarity: ["2"]
+      rarity: ["2"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Boudica",
-    img: "LzJL6l7.png",
+    img: "Boudica.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Ushiwakamaru (Rider)",
-    img: "DXfMcny.png",
+    img: "Ushiwakamaru.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Alexander",
-    img: "yc8nZTj.png",
+    img: "Alexander.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Marie Antoinette (Rider)",
-    img: "1fC7T95.png",
+    img: "Marie_Antoinette.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Martha (Rider)",
-    img: "kIQGkLA.png",
+    img: "Martha.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
-      rarity: ["4"]
+      rarity: ["4"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Medea",
-    img: "yyRCx1I.png",
+    img: "Medea.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Gilles de Rais (Caster)",
-    img: "Fk3HSbG.png",
+    img: "Gilles_Caster.png",
     opts: {
       class: [ "caster"],
       gender: ["m"],
-      rarity: ["3"]
+      rarity: ["3"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
     }
   },
   {
     name: "Hans Christian Andersen",
-    img: "XeLutgq.png",
+    img: "Hans.png",
     opts: {
       class: [ "caster"],
       gender: ["m"],
       rarity: ["2"],
+      yearJP: ["2015"],
+      yearNA: ["2017"],
       age: true
     }
   },
