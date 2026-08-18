@@ -1128,7 +1128,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["m"],
       rarity: ["5"],
       yearJP: ["2016"],
-      yearNA: ["2017"],
+      yearNA: ["2018"],
     }
   },
   {
@@ -1139,7 +1139,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["m"],
       rarity: ["5"],
       yearJP: ["2016"],
-      yearNA: ["2017"],
+      yearNA: ["2018"],
     }
   },
   {
@@ -1964,280 +1964,336 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "\"First Hassan\"",
-    img: "oCevJNk.png",
+    img: "First_Hassan.png",
     opts: {
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Mysterious Heroine X (Alter) (Berserker)",
-    img: "1RdnKZc.png",
+    img: "MHX_Alter_Berserker.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "James Moriarty (Archer)",
-    img: "Guh8mq0.png",
+    img: "Moriarty_Archer.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "EMIYA (Alter)",
-    img: "bcZMofX.png",
+    img: "Emiya_Alter.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Hessian Lobo",
-    img: "VRZYbpf.png",
+    img: "Hessian_Lobo.png",
     opts: {
       class: [ "avenger"],
       gender: ["m"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Yan Qing",
-    img: "9YQfwrA.png",
+    img: "Yan_Qing.png",
     opts: {
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Arthur Pendragon (Prototype)",
-    img: "2hHD5iK.png",
+    img: "Arthur_Prototype.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Hijikata Toshizō",
-    img: "q3pkKV0.png",
+    img: "Hijitaka.png",
     opts: {
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Chacha",
-    img: "idayuKq.png",
+    img: "Chacha.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       age: true,
     }
   },
   {
     name: "Meltryllis",
-    img: "DBR2o1f.png",
+    img: "Melt_Alterego.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["5"],
       face: ["sakura"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Passionlip",
-    img: "DlupoZt.png",
+    img: "Passionlip.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["4"],
       face: ["sakura"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Suzuka Gozen",
-    img: "znYYoVi.png",
+    img: "Suzuka_Saber.png",
     opts: {
       class: [ "saber"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "BB",
-    img: "JzbV9Hp.png",
+    img: "BB.png",
     opts: {
       class: [ "mooncancer"],
       gender: ["f"],
       rarity: ["4"],
       face: ["sakura"],
       extra: ["welfare"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Sesshōin Kiara (Alter Ego)",
-    img: "oQxSt08.png",
+    img: "Kiara_Alterego.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Beast III/R (Heaven's Hole)",
-    img: "DHFaoRi.png",
+    img: "Beast_III_Heaven's_Hole.png",
     opts: {
       class: [ "beast"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       npc: true,
     }
   },
   {
     name: "Scheherazade",
-    img: "UBz0UzP.png",
+    img: "Scheherazade.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Wu Zetian (Assassin)",
-    img: "V646m28.png",
+    img: "Wu_Assassin.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       age: true,
     }
   },
   {
     name: "Penthesilea",
-    img: "VRuLnKx.png",
+    img: "Penth.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Christopher Columbus",
-    img: "HHKsR3Y.png",
+    img: "Christopher_Colombus.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
       rarity: ["3"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Sherlock Holmes",
-    img: "3PKKNUJ.png",
+    img: "Sherlock_Holmes.png",
     opts: {
       class: [ "ruler"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Paul Bunyan",
-    img: "Na63vHk.png",
+    img: "Paul_Bunyan.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["1"],
       extra: ["welfare"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       age: true,
     }
   },
   {
     name: "Nero Claudius (Caster)",
-    img: "D61msnT.png",
+    img: "Nero_Caster.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Frankenstein (Saber)",
-    img: "T0MO2UI.png",
+    img: "Frankenstein_Saber.png",
     opts: {
       class: [ "saber"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Nitocris (Assassin)",
-    img: "vqExl0r.png",
+    img: "Nitocris_Assassin.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Oda Nobunaga (Berserker)",
-    img: "u7gweye.png",
+    img: "Oda_Nobunaga_Berserker.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Artoria Pendragon (Alter) (Rider)",
-    img: "1EE4t4k.png",
+    img: "Artoria_Alter_Rider.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Helena Blavatsky (Archer)",
-    img: "Tx8qSmY.png",
+    img: "Helena_archer.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Minamoto no Raikō (Lancer)",
-    img: "LifkTwr.png",
+    img: "Raikou_Lancer.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
@@ -2250,127 +2306,155 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["4"],
       face: ["rin"],
       extra: ["welfare", "summer"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Pārvatī",
-    img: "mTxq6Qm.png",
+    img: "Parvati.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
       face: ["sakura"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Tomoe Gozen (Archer)",
-    img: "quTFr5r.png",
+    img: "Tomoe_Archer.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Mochizuki Chiyome",
-    img: "WgHSNA9.png",
+    img: "Chiyome.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Hōzōin Inshun",
-    img: "CYWFN1I.png",
+    img: "Hōzōin_Inshun.png",
     opts: {
       class: [ "lancer"],
       gender: ["m"],
       rarity: ["3"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Yagyū Tajima no Kami Munenori",
-    img: "QooLDYy.png",
+    img: "Yagyuu.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Katou \"Black Kite\" Danzo",
-    img: "o14PdZZ.png",
+    img: "Katou_Danzou.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Osakabehime",
-    img: "P1OXIE9.png",
+    img: "Osakabahime.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Mecha Eli-chan",
-    img: "uvr1H2N.png",
+    img: "Mecha_Eli.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Mecha Eli-chan Mk.II",
-    img: "HFPeoZq.png",
+    img: "Mecha_Eli_II.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Circe",
-    img: "YNASLPW.png",
+    img: "Circe.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Nezha",
-    img: "7aEA74b.png",
+    img: "Nezha.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Queen of Sheba",
-    img: "vQedw6z.png",
+    img: "Queen_of_Sheba.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Abigail Williams",
-    img: "qC5mrUE.png",
+    img: "Abigail.png",
     opts: {
       class: [ "foreigner"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       age: true,
     }
   },
@@ -2382,433 +2466,520 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["rin"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
     }
   },
   {
     name: "Altera the San(ta)",
-    img: "QD7HLdL.png",
+    img: "Altera_Santa.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare", "santa"],
+      yearJP: ["2017"],
+      yearNA: ["2019"],
       alt: true,
     }
   },
   {
     name: "Katsushika Hokusai (Foreigner)",
-    img: "CQCHkKA.png",
+    img: "Hokusai_foreigner.png",
     opts: {
       class: [ "foreigner"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Semiramis",
-    img: "bRss30Y.png",
+    img: "Semiramis.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Asagami Fujino",
-    img: "1zaOcQZ.png",
+    img: "Asagami.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
       collab: true,
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Anastasia (Caster)",
-    img: "O4NNTdu.png",
+    img: "Anastasia_Caster.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Atalanta (Alter)",
-    img: "JpOSJzs.png",
+    img: "Atalante_Alter.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Avicebron",
-    img: "6WlcQSC.png",
+    img: "Aviceabron.png",
     opts: {
       class: [ "caster"],
       gender: ["m"],
       rarity: ["3"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Antonio Salieri",
-    img: "xO6Wlob.png",
+    img: "Antonio_Salieri.png",
     opts: {
       class: [ "avenger"],
       gender: ["m"],
       rarity: ["3"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Ivan the Terrible",
-    img: "n9wFgjT.png",
+    img: "Ivan_Terrible.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Achilles",
-    img: "5iktFg6.png",
+    img: "Achilles.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Chiron",
-    img: "CClxWRP.png",
+    img: "Chiron.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Sieg",
-    img: "abH0QPt.png",
+    img: "Sieg.png",
     opts: {
       class: [ "caster"],
       gender: ["m"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Okita Sōji (Alter) (Alterego)",
-    img: "oSF8m1t.png",
+    img: "Okita_alter_alterego.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Okada Izō",
-    img: "y2pid8E.png",
+    img: "Okada_Izou.png",
     opts: {
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["3"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Sakamoto Ryōma (Rider)",
-    img: "EPOCxSp.png",
+    img: "Sakamoto_Oryou_Rider.png",
     opts: {
       class: [ "rider"],
       gender: ["m", "f"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       pair: true,
     }
   },
   {
     name: "Sakamoto Ryōma (Rider)",
-    img: "HOBsHb9.png",
+    img: "Sakamoto_Rider.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       indi: true,
     }
   },
   {
     name: "Oryō",
-    img: "9119j5F.png",
+    img: "Oryou_Rider.png",
     opts: {
       class: [ "rider"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       indi: true,
     }
   },
   {
     name: "Napoléon",
-    img: "gJMvuw3.png",
+    img: "Napoleon.png",
     opts: {
       class: [ "archer"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Sigurd",
-    img: "6c7adqv.png",
+    img: "Sigurd.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Valkyrie",
-    img: "e0UqQom.png",
+    img: "Valkyrie_Ortlinde.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       pair: true,
     }
   },
   {
     name: "Ortlinde (Lancer)",
-    img: "e0UqQom.png",
+    img: "Valkyrie_Ortlinde.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       indi: true,
     }
   },
   {
     name: "Hildr (Lancer)",
-    img: "hDonGTI.png",
+    img: "Valkyrie_Hildr.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       indi: true,
     }
   },
   {
     name: "Thrúd (Lancer)",
-    img: "CpVpLF1.png",
+    img: "Valkyrie_Thrud.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       indi: true,
     }
   },
   {
     name: "Scáthach-Skaði (Caster)",
-    img: "kpdbp6n.png",
+    img: "Scathach-Skadi.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Jeanne d'Arc (Archer)",
-    img: "6EUoBN7.png",
+    img: "Jeanne_Archer.png",
     opts: {
       class: [ "archer"],
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
       extra: ["summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "Ibaraki Dōji (Lancer)",
-    img: "3RfAUt5.png",
+    img: "Ibaraki_Douji_Lancer.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
       age: true,
     }
   },
   {
     name: "Ushiwakamaru (Assassin)",
-    img: "txBTK2a.png",
+    img: "Ushiwakamaru_Assassin.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "Jeanne d'Arc (Alter) (Berserker)",
-    img: "GLXEyzE.png",
+    img: "Jeanne_Alter_Berserker.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
       extra: ["welfare", "summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "BB (Summer)",
-    img: "5DWMhsl.png",
+    img: "BB_Summer.png",
     opts: {
       class: [ "mooncancer"],
       gender: ["f"],
       rarity: ["5"],
       face: ["sakura"],
       extra: ["summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "Queen Medb (Saber)",
-    img: "1DalKVZ.png",
+    img: "Queen_Medb_Saber.png",
     opts: {
       class: [ "saber"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "Mysterious Heroine XX",
-    img: "7WRkStJ.png",
+    img: "MHXX.png",
     opts: {
       class: [ "foreigner"],
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
       extra: ["summer"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "Diarmuid Ua Duibhne (Saber)",
-    img: "09q393z.png",
+    img: "Diarmuid_Saber.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Sitonai",
-    img: "1EVuvZy.png",
+    img: "Sitonai.png",
     opts: {
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       age: true,
     }
   },
   {
     name: "Shuten Dōji (Caster)",
-    img: "7rMuJbG.png",
+    img: "Shuten_Caster.png",
     opts: {
       class: [ "caster"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
 
   {
     name: "Xiang Yu",
-    img: "1QpkGuN.png",
+    img: "Xiang_Yu.png",
     opts: {
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Prince of Lan Ling",
-    img: "gj4TNQG.png",
+    img: "Prince_of_Lan.png",
     opts: {
       class: [ "saber"],
       gender: ["m"],
-      rarity: ["4"],
+      rarity: ["4"],yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Qin Liangyu",
-    img: "mgMJ9fZ.png",
+    img: "Qin_Liangyu.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Qin Shi Huang",
-    img: "Oppsa22.png",
+    img: "Qin_Shi.png",
     opts: {
       class: [ "ruler"],
       gender: ["u"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Yu Mei-ren (Assassin)",
-    img: "j7JSPW0.png",
+    img: "Yu_Mei_Assassin.png",
     opts: {
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Red Hare",
-    img: "cmzKaFu.png",
+    img: "Red_Hare.png",
     opts: {
       class: [ "rider"],
       gender: ["m"],
       rarity: ["3"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Bradamante",
-    img: "EUh9pE4.png",
+    img: "Bradamante.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
     }
   },
   {
     name: "Quetzalcoatl (Samba/Santa)",
-    img: "n10mIFp.png",
+    img: "Quetz_Santa_Ruler.png",
     opts: {
       class: [ "ruler"],
       gender: ["f"],
       rarity: ["4"],
       extra: ["welfare", "santa"],
+      yearJP: ["2018"],
+      yearNA: ["2020"],
       alt: true,
     }
   },
   {
     name: "Beni-Enma",
-    img: "Qj9f2OA.png",
+    img: "Beni-Enma.png",
     opts: {
       class: [ "saber"],
       gender: ["f"],
       rarity: ["5"],
+      yearJP: ["2019"],
+      yearNA: ["2021"],
       age: true,
     }
   },
