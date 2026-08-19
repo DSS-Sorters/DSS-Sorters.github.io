@@ -1942,8 +1942,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Solomon (NPC)",
-    img: "Solomon.png",
+    name: "Solomon (True)",
+    img: "Solomon_true.png",
     opts: {
       class: [ "caster"],
       gender: ["m"],
@@ -6021,9 +6021,246 @@ dataSet[dataSetVersion].characterData = [
       jp: true,
     }
   },
+  {
+    name: "Huyan Zhuo (Berserker)",
+    img: "Huyan_Zhuo_Berserker.png",
+    opts: {
+      class: [ "berserker"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["welfare", "summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Moon Rabbit",
+    img: "Shiki_MoonCancer.png",
+    opts: {
+      class: [ "mooncancer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["summer"],
+      collab: true,
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Miyu Edelfelt (Lancer)",
+    img: "Miyu_Lancer.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["summer"],
+      alt: true,
+      age: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Larva/Tiamat (Archer)",
+    img: "Tiamat_Archer.png",
+    opts: {
+      class: [ "archer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Jeunesse Crane",
+    img: "Crane_AlterEgo.png",
+    opts: {
+      class: [ "alterego"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Nemo/Noah",
+    img: "Nemo_Noah_Mobile.png",
+    opts: {
+      class: [ "rider"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Kawakami Gensai",
+    img: "Kawakami_Gensai.png",
+    opts: {
+      class: [ "assassin"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Tōdō Heisuke",
+    img: "Tōdō_Heisuke.png",
+    opts: {
+      class: [ "avenger"],
+      gender: ["m"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Harada Sanosuke",
+    img: "Harada_Sanosuke.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["m"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["welfare"],
+      jp: true,
+    }
+  },
+  {
+    name: "Kondō Isami",
+    img: "Kondō_Isami.png",
+    opts: {
+      class: [ "saber"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      jp: true,
+    }
+  },
+  {
+    name: "Elizabeth Báthory (SSR)",
+    img: "Elizabeth_SSR.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Elizabeth of the End",
+    img: "Elizabeth_End.png",
+    opts: {
+      class: [ "avenger"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["welfare"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Solomon (Pretender)",
+    img: "Solomon_Pretender.png",
+    opts: {
+      class: [ "pretender"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["welfare"],
+      jp: true,
+    }
+  },
+  {
+    name: "Maris Chaldeas",
+    img: "Maris_Chaldeas.png",
+    opts: {
+      class: [ "beast"],
+      gender: ["u"],
+      rarity: ["0"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      npc: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Lord Logres",
+    img: "Lord_Logres.png",
+    opts: {
+      class: [ "saber"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      face: ["saber"],
+      jp: true,
+    }
+  },
+  {
+    name: "Hanasaka no Okina",
+    img: "Hanasaka_no_Okina.png",
+    opts: {
+      class: [ "caster"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+  {
+    name: "Hebi Nyōbō",
+    img: "Hebi_Nyōbō.png",
+    opts: {
+      class: [ "assassin"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+
+  /** Template
+   *   {
+    name: "Name",
+    img: "filename.png",
+    opts: {
+      class: [ "class"],
+      gender: ["u"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+   */
 
   // Arcade-only servants
-  // Note: Remove Jacques de Molay Saber when his normal version is added.
+  // Note: Remove Jacques de Molay Saber and Nemo/Noah when his normal version is added.
 
   {
     name: "Jacques de Molay (Saber) (Arcade)",
