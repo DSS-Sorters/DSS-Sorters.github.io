@@ -159,6 +159,8 @@ dataSet[dataSetVersion].options = [
   },
 ];
 
+// Proper Servants
+
 dataSet[dataSetVersion].characterData = [
   {
     name: "Mashu Kyrielight",
@@ -4496,7 +4498,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kriemhild",
-    img: "Krem.png",
+    img: "Kriem.png",
     opts: {
       class: [ "berserker"],
       gender: ["f"],
@@ -5653,6 +5655,9 @@ dataSet[dataSetVersion].characterData = [
       yearNA: ["2026"],
     }
   },
+
+  // JP-Only Line Cut-Off
+
   {
     name: "Kazuradrop",
     img: "Kazuradrop.png",
@@ -5862,6 +5867,165 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Metatron Jeanne",
+    img: "Metatron_Jeanne.png",
+    opts: {
+      class: [ "ruler"],
+      gender: ["f"],
+      rarity: ["5"],
+      face: ["saber"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "King Ashoka",
+    img: "Ashoka.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["m"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Lilith",
+    img: "Lilith.png",
+    opts: {
+      class: [ "berserker"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Typhon Ephemeros",
+    img: "Typhon Ephemeros.png",
+    opts: {
+      class: [ "pretender"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Indra",
+    img: "Indra_Full.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["u"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      pair: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Indra",
+    img: "Indra.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      indi: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Vajra (Male)",
+    img: "Indra_Male_Vajra.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      indi: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Vajra (Female)",
+    img: "Indra_Female_Vajra.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      indi: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Stellar Marie",
+    img: "Stellar_Marie.png",
+    opts: {
+      class: [ "beast"],
+      gender: ["f"],
+      rarity: ["0"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      npc: true,
+      jp: true,
+    }
+  },
+  {
+    name: "U-Olga Marie",
+    img: "U_Marie.png",
+    opts: {
+      class: [ "beast"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      jp: true,
+    }
+  },
+  {
+    name: "Passionlip (Saber)",
+    img: "Passionlip_Saber.png",
+    opts: {
+      class: [ "beast"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      face: ["sakura"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Kriemhild (Rider)",
+    img: "Kriem_rider.png",
+    opts: {
+      class: [ "rider"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+
+  // Arcade-only servants
+  // Note: Remove Jacques de Molay Saber when his normal version is added.
+
+  {
     name: "Jacques de Molay (Saber) (Arcade)",
     img: "Jacques_Molay_Arcade.png",
     opts: {
@@ -5990,6 +6154,8 @@ dataSet[dataSetVersion].characterData = [
       arcade: true,
     }
   },
+
+  // Alt-Costumes
   {
     name: "Mash (Summer Ver.1)",
     img: "Mash_Summer_1.png",
@@ -6756,6 +6922,21 @@ dataSet[dataSetVersion].characterData = [
       costume: true,
     }
   },
+
+  // Additional NPCs
+
+  {
+    name: "Aphrodite",
+    img: "Aphrodite.png",
+    opts: {
+      class: [ "assassin"],
+      gender: ["f"],
+      rarity: ["5"],
+      npc: true
+    }
+  },
+
+  // Template
   /*
   {
     name: "Yan Qing",
