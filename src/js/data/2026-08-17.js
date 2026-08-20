@@ -5905,7 +5905,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Typhon Ephemeros",
-    img: "Typhon Ephemeros.png",
+    img: "Typhon_Ephemeros.png",
     opts: {
       class: [ "pretender"],
       gender: ["f"],
@@ -5920,7 +5920,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Indra_Full.png",
     opts: {
       class: [ "lancer"],
-      gender: ["u"],
+      gender: ["u", "m"],
       rarity: ["5"],
       yearJP: ["2025"],
       yearNA: ["2027"],
@@ -5933,7 +5933,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Indra.png",
     opts: {
       class: [ "lancer"],
-      gender: ["m"],
+      gender: ["m", "u"],
       rarity: ["5"],
       yearJP: ["2025"],
       yearNA: ["2027"],
@@ -6243,6 +6243,317 @@ dataSet[dataSetVersion].characterData = [
       jp: true,
     }
   },
+  {
+    name: "Flora",
+    img: "Flora.png",
+    opts: {
+      class: [ "alterego"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["welfare"],
+      jp: true,
+    }
+  },
+  {
+    name: "Demeter",
+    img: "Demeter.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+  {
+    name: "Jacques de Molay",
+    img: "Jacques_de_Molay_Saber.png",
+    opts: {
+      class: [ "saber"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+  {
+    name: "François Prelati & Francesca Prelati",
+    img: "François_Francesca.png",
+    opts: {
+      class: [ "caster"],
+      gender: ["m", "f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      pair: true,
+      jp: true,
+    }
+  },
+  {
+    name: "François Prelati",
+    img: "François_Prelati.png",
+    opts: {
+      class: [ "caster"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      indi: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Francesca Prelati",
+    img: "Francesca_Prelati.png",
+    opts: {
+      class: [ "caster"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      indi: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Hippolyta",
+    img: "Hippolyta.png",
+    opts: {
+      class: [ "rider"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["welfare"],
+      jp: true,
+    }
+  },
+  {
+    name: "John Lackland",
+    img: "John_Lackland.png",
+    opts: {
+      class: [ "avenger"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+  {
+    name: "Urðr",
+    img: "Urðr.png",
+    opts: {
+      class: [ "archer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+  {
+    name: "Ascalaphus",
+    img: "Ascalaphus.png",
+    opts: {
+      class: [ "class"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      age: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Ascalaphus (Stage 3)",
+    img: "Ascalaphus_3.png",
+    opts: {
+      class: [ "class"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      costume: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Gray Lily (Saber)",
+    img: "Gray_Lily_Saber.png",
+    opts: {
+      class: [ "saber"],
+      gender: [""],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      face: ["saber"],
+      extra: ["welfare"],
+      age: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Gray Lily (Lancer)",
+    img: "Gray_Lily_Lancer.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      face: ["saber"],
+      extra: ["welfare"],
+      age: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Hassan-i-Sabbah (Azrael)",
+    img: "Azrael.png",
+    opts: {
+      class: [ "assassin"],
+      gender: ["m"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      jp: true,
+    }
+  },
+  {
+    name: "Beni-Enma (Berserker)",
+    img: "Beni-Enma_Berserker.png",
+    opts: {
+      class: [ "berserker"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      age: true,
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Kingprotea (Moon Cancer)",
+    img: "Kingprotea_MoonCancer.png",
+    opts: {
+      class: [ "mooncancer"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Biscione (Caster)",
+    img: "Biscione_Caster.png",
+    opts: {
+      class: [ "caster"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Lilith (Rider)",
+    img: "Lilith_Rider.png",
+    opts: {
+      class: [ "rider"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: " Kingprotea Alter (Avenger)",
+    img: "Kingprotea_Alter_Avenger.png",
+    opts: {
+      class: [ "avenger"],
+      gender: ["f"],
+      rarity: ["5"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Ono no Komachi (Archer)",
+    img: "Ono_no_Komachi_Archer.png",
+    opts: {
+      class: [ "archer"],
+      gender: ["f, m"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      pair: true,
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Ono no Komachi (Archer)",
+    img: "Ono_Archer_Single.png",
+    opts: {
+      class: [ "archer"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      indi: true,
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Ono no Takamura (Archer)",
+    img: "Ono_Archer_Single_m.png",
+    opts: {
+      class: [ "archer"],
+      gender: ["m"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      indi: true,
+      alt: true,
+      jp: true,
+    }
+  },
+  {
+    name: "Habetrot (Pretender)",
+    img: "Habetrot_Pretender.png",
+    opts: {
+      class: [ "pretender"],
+      gender: ["f"],
+      rarity: ["4"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      extra: ["summer"],
+      alt: true,
+      jp: true,
+    }
+  },
 
   /** Template
    *   {
@@ -6260,8 +6571,8 @@ dataSet[dataSetVersion].characterData = [
    */
 
   // Arcade-only servants
-  // Note: Remove Jacques de Molay Saber and Nemo/Noah when his normal version is added.
 
+  /* No longer arcade exclusive, kept for archival
   {
     name: "Jacques de Molay (Saber) (Arcade)",
     img: "Jacques_Molay_Arcade.png",
@@ -6274,6 +6585,7 @@ dataSet[dataSetVersion].characterData = [
       arcade: true,
     }
   },
+  */
   {
     name: "Kama (Mistake)",
     img: "Kama_Mistake.png",
@@ -6327,6 +6639,7 @@ dataSet[dataSetVersion].characterData = [
       arcade: true,
     }
   },
+  /* No longer arcade exclusive, kept for archival
   {
     name: "Nemo/Noah",
     img: "Nemo_Noah.png",
@@ -6340,6 +6653,7 @@ dataSet[dataSetVersion].characterData = [
       arcade: true,
     }
   },
+  */
   {
     name: "Helena Blavatsky (Christmas)",
     img: "Helena_Santa.png",
@@ -7159,6 +7473,90 @@ dataSet[dataSetVersion].characterData = [
       costume: true,
     }
   },
+  {
+    name: "Tezcatlipoca (Summer)",
+    img: "Tezcatlipoca_Summer.png",
+    opts: {
+      class: [ "assassin"],
+      gender: ["m"],
+      rarity: ["5"],
+      extra: ["summer"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      alt: true,
+      costume: true,
+    }
+  },
+  {
+    name: "Saitō Hajime (Summer)",
+    img: "Saitō_Summer.png",
+    opts: {
+      class: [ "saber"],
+      gender: ["m"],
+      rarity: ["4"],
+      extra: ["summer"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      alt: true,
+      costume: true,
+    }
+  },
+  {
+    name: "Cú Chulainn (Caster) (Summer)",
+    img: "Cú_Chulainn_Caster_Summer.png",
+    opts: {
+      class: [ "caster"],
+      gender: ["m"],
+      rarity: ["3"],
+      extra: ["summer"],
+      yearJP: ["2025"],
+      yearNA: ["2027"],
+      alt: true,
+      costume: true,
+    }
+  },
+  {
+    name: "Dante Alighieri (Summer)",
+    img: "Dante_Alighieri_Summer.png",
+    opts: {
+      class: [ "pretender"],
+      gender: ["m"],
+      rarity: ["5"],
+      extra: ["summer"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      alt: true,
+      costume: true,
+    }
+  },
+  {
+    name: "Hassan of the Shining Star (Summer)",
+    img: "Hassan_Shining_Star_Summer.png",
+    opts: {
+      class: [ "assassin"],
+      gender: ["m"],
+      rarity: ["4"],
+      extra: ["summer"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      alt: true,
+      costume: true,
+    }
+  },
+  {
+    name: "Bedivere (Summer)",
+    img: "Bedivere_Summer.png",
+    opts: {
+      class: [ "saber"],
+      gender: ["m"],
+      rarity: ["3"],
+      extra: ["summer"],
+      yearJP: ["2026"],
+      yearNA: ["2028"],
+      alt: true,
+      costume: true,
+    }
+  },
 
   // Additional NPCs
 
@@ -7168,6 +7566,16 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       class: [ "assassin"],
       gender: ["f"],
+      rarity: ["5"],
+      npc: true
+    }
+  },
+  {
+    name: "Thomas Edison (Alter)",
+    img: "Thomas_Edison_Alter.png",
+    opts: {
+      class: [ "mooncancer"],
+      gender: ["m"],
       rarity: ["5"],
       npc: true
     }
