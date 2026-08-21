@@ -6580,7 +6580,6 @@ dataSet[dataSetVersion].characterData = [
       yearJP: ["2026"],
       yearNA: ["2028"],
       extra: ["summer"],
-      alt: true,
       jp: true,
     }
   },
@@ -7559,7 +7558,6 @@ dataSet[dataSetVersion].characterData = [
       face: ["sakura"],
       yearJP: ["2023"],
       yearNA: ["2025"],
-      alt: true,
       costume: true,
     }
   },
