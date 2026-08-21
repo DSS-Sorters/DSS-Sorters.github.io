@@ -61,7 +61,7 @@ dataSet[dataSetVersion].options = [
       { name: "Welfare", tooltip: "filter to event-reward Servants", key: "welfare" },
       { name: "Summer", tooltip: "filter to summer-event Servants", key: "summer" },
       { name: "Christmas", tooltip: "filter to christmas-event Servants", key: "santa" },
-      { name: "Arcade", tooltip: "filter to arcade-only Servants (Requires JP Servants to be allowed)", key: "arcade" },
+      { name: "Arcade", tooltip: "filter to Servants who appear in FGO/Arcade", key: "arcade" },
     ]
   },
   {
@@ -109,8 +109,8 @@ dataSet[dataSetVersion].options = [
   },
   {
     name: "Exclude Arcade Only servants",
-    key: "arcade",
-    tooltip: "Check this to exclude servants that have only been released in FGO Arcade.",
+    key: "arcadeOnly",
+    tooltip: "Check this to exclude servants that have only been released in FGO/Arcade. (Require JP Servants to be allowed)",
     checked: true,
   },
   {
@@ -169,6 +169,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "shielder"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -181,6 +182,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -193,6 +195,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -219,6 +222,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -230,6 +234,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -241,6 +246,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -252,6 +258,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -263,6 +270,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -274,6 +282,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["u"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -285,6 +294,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["m"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -296,6 +306,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -318,6 +329,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -362,6 +374,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -373,6 +386,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -395,6 +409,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -417,6 +432,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["f"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -428,6 +444,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -439,6 +456,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -450,6 +468,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["f"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -483,6 +502,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -494,6 +514,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -516,6 +537,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["m"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -561,6 +583,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["m"],
       rarity: ["1"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -572,6 +595,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -583,6 +607,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["m"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -605,6 +630,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -649,6 +675,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -660,6 +687,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["1"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -671,6 +699,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -682,6 +711,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -693,6 +723,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -726,6 +757,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -737,6 +769,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -760,6 +793,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["m"],
       rarity: ["2"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -782,6 +816,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
       age: true,
@@ -817,6 +852,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -852,6 +888,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -885,6 +922,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -932,6 +970,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -944,6 +983,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -955,7 +995,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["welfare"],
+      extra: ["welfare","arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -967,6 +1007,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -1026,6 +1067,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
       age: true,
@@ -1039,6 +1081,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -1062,6 +1105,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2015"],
       yearNA: ["2017"],
     }
@@ -1129,6 +1173,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1140,6 +1185,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1197,6 +1243,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       alt: true,
@@ -1209,6 +1256,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       collab: true,
@@ -1221,7 +1269,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["welfare"],
+      extra: ["welfare", "extra"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       alt: true,
@@ -1235,6 +1283,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "ruler"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1269,6 +1318,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "avenger"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1280,6 +1330,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1290,7 +1341,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       class: [ "berserker"],
       gender: ["m"],
-      rarity: ["4"],
+      rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1380,6 +1432,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1402,6 +1455,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1447,6 +1501,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1493,6 +1548,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       age: true,
@@ -1516,6 +1572,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1528,6 +1585,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1616,6 +1674,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1627,7 +1686,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["5"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       alt: true,
@@ -1641,7 +1700,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       alt: true,
@@ -1761,6 +1820,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       age: true,
@@ -1773,7 +1833,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["welfare"],
+      extra: ["welfare", "arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
       age: true,
@@ -1836,6 +1896,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["rin"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1847,6 +1908,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["u"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1869,6 +1931,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["m"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1925,6 +1988,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2016"],
       yearNA: ["2018"],
     }
@@ -1960,6 +2024,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -1971,6 +2036,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -1983,6 +2049,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -1994,6 +2061,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2038,6 +2106,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2074,6 +2143,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["sakura"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2086,6 +2156,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["sakura"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2109,7 +2180,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["sakura"],
-      extra: ["welfare"],
+      extra: ["welfare", "arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2189,6 +2260,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "ruler"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2200,7 +2272,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["1"],
-      extra: ["welfare"],
+      extra: ["welfare", "arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
       age: true,
@@ -2240,7 +2312,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
       alt: true,
@@ -2267,7 +2339,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
       alt: true,
@@ -2293,7 +2365,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
       alt: true,
@@ -2387,6 +2459,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2468,6 +2541,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["rin"],
+      extra: ["arcade"],
       yearJP: ["2017"],
       yearNA: ["2019"],
     }
@@ -2492,6 +2566,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "foreigner"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
     }
@@ -2514,6 +2589,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       collab: true,
       yearJP: ["2018"],
       yearNA: ["2020"],
@@ -2627,6 +2703,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["m"],
       rarity: ["3"],
+      extra: ["arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
     }
@@ -2747,6 +2824,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
     }
@@ -2759,7 +2837,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
       alt: true,
@@ -2800,7 +2878,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
-      extra: ["welfare", "summer"],
+      extra: ["welfare", "summer", "arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
       alt: true,
@@ -2814,7 +2892,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["sakura"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
       alt: true,
@@ -2827,7 +2905,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
       alt: true,
@@ -2956,6 +3034,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2018"],
       yearNA: ["2020"],
     }
@@ -3003,6 +3082,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
     }
@@ -3076,6 +3156,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
     }
@@ -3087,6 +3168,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "ruler"],
       gender: ["f"],
       rarity: ["4"],
+      extra: ["arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
     }
@@ -3099,7 +3181,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["4"],
       face: ["saber"],
-      extra: ["welfare"],
+      extra: ["welfare", "arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
     }
@@ -3302,7 +3384,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "berserker"],
       gender: ["f"],
       rarity: ["5"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
       alt: true,
@@ -3341,7 +3423,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["welfare", "summer"],
+      extra: ["welfare", "summer", "arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
       alt: true,
@@ -3355,7 +3437,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
       alt: true,
@@ -3419,6 +3501,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m", "u"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2019"],
       yearNA: ["2021"],
       alt: true,
@@ -3488,6 +3571,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2020"],
       yearNA: ["2022"],
     }
@@ -3656,7 +3740,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["summer", "welfare"],
+      extra: ["summer", "welfare", "arcade"],
       yearJP: ["2020"],
       yearNA: ["2022"],
       alt: true,
@@ -3669,7 +3753,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "foreigner"],
       gender: ["f"],
       rarity: ["5"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       yearJP: ["2020"],
       yearNA: ["2022"],
       alt: true,
@@ -3822,6 +3906,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2021"],
       yearNA: ["2023"],
     }
@@ -3903,6 +3988,7 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["saber"],
+      extra: ["arcade"],
       yearJP: ["2021"],
       yearNA: ["2023"],
     }
@@ -3958,6 +4044,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "assassin"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2021"],
       yearNA: ["2023"],
     }
@@ -4995,6 +5082,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "alterego"],
       gender: ["f"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2023"],
       yearNA: ["2025"],
     }
@@ -5043,7 +5131,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["4"],
-      extra: ["welfare"],
+      extra: ["welfare", "arcade"],
       yearJP: ["2022"],
       yearNA: ["2024"],
       age: true,
@@ -5626,7 +5714,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "foreigner"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["summer"],
+      extra: ["summer", "arcade"],
       face: ["saber"],
       yearJP: ["2024"],
       yearNA: ["2026"],
@@ -5996,7 +6084,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Passionlip (Saber)",
     img: "Passionlip_Saber.png",
     opts: {
-      class: [ "beast"],
+      class: [ "saber"],
       gender: ["f"],
       rarity: ["5"],
       yearJP: ["2025"],
@@ -6275,6 +6363,7 @@ dataSet[dataSetVersion].characterData = [
       class: [ "saber"],
       gender: ["m"],
       rarity: ["5"],
+      extra: ["arcade"],
       yearJP: ["2026"],
       yearNA: ["2028"],
       jp: true,
@@ -6571,6 +6660,8 @@ dataSet[dataSetVersion].characterData = [
    */
 
   // Arcade-only servants
+  // Put Setanta and Da Vinci Rider (Arcade) later I guess.
+  // Maybe uncomment Arcade Molay and Nemo/Noah since they are technically "different" servants?
 
   /* No longer arcade exclusive, kept for archival
   {
@@ -6594,10 +6685,10 @@ dataSet[dataSetVersion].characterData = [
       gender: ["f"],
       rarity: ["5"],
       face: ["sakura"],
-      extra: ["arcade",],
+      extra: ["arcade"],
       age: true,
       alt: true,
-      arcade: true,
+      arcadeOnly: true,
       jp: true,
     }
   },
@@ -6608,9 +6699,9 @@ dataSet[dataSetVersion].characterData = [
       class: [ "archer"],
       gender: ["f"],
       rarity: ["4"],
-      extra: ["arcade",],
+      extra: ["arcade"],
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
     }
   },
   {
@@ -6623,7 +6714,7 @@ dataSet[dataSetVersion].characterData = [
       extra: ["welfare", "santa", "arcade",],
       alt: true,
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
     }
   },
   {
@@ -6633,10 +6724,10 @@ dataSet[dataSetVersion].characterData = [
       class: [ "rider"],
       gender: ["m"],
       rarity: ["5"],
-      extra: ["arcade",],
+      extra: ["arcade"],
       alt: true,
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
     }
   },
   /* No longer arcade exclusive, kept for archival
@@ -6664,7 +6755,7 @@ dataSet[dataSetVersion].characterData = [
       extra: ["welfare", "santa", "arcade",],
       alt: true,
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
     }
   },
   {
@@ -6674,9 +6765,9 @@ dataSet[dataSetVersion].characterData = [
       class: [ "caster"],
       gender: ["f"],
       rarity: ["5"],
-      extra: ["arcade",],
+      extra: ["arcade"],
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
     }
   },
   {
@@ -6688,7 +6779,7 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["4"],
       extra: ["welfare", "santa", "arcade",],
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
     }
   },
   {
@@ -6702,7 +6793,21 @@ dataSet[dataSetVersion].characterData = [
       extra: ["arcade",],
       npc: true,
       jp: true,
-      arcade: true,
+      arcadeOnly: true,
+    }
+  },
+  },
+  {
+    name: "Sodom's Beast/Draco",
+    img: "Draco_2.png",
+    opts: {
+      class: [ "alterego"],
+      gender: ["f"],
+      rarity: ["5"],
+      face: ["saber"],
+      yearJP: ["2023"],
+      yearNA: ["2025"],
+      age: true,
     }
   },
 
@@ -7576,6 +7681,16 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       class: [ "mooncancer"],
       gender: ["m"],
+      rarity: ["5"],
+      npc: true
+    }
+  },
+  {
+    name: "Verandi",
+    img: "Verandi.png",
+    opts: {
+      class: [ "lancer"],
+      gender: ["f"],
       rarity: ["5"],
       npc: true
     }
