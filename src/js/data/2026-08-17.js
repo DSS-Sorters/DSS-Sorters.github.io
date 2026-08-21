@@ -7685,13 +7685,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Verandi",
-    img: "Verandi.png",
+    name: "Verðandi",
+    img: "Verðandi.png",
     opts: {
       class: [ "lancer"],
       gender: ["f"],
       rarity: ["5"],
-      npc: true
+      npc: true,
+      jp: true,
     }
   },
 
