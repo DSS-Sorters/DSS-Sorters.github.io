@@ -6796,7 +6796,6 @@ dataSet[dataSetVersion].characterData = [
       arcadeOnly: true,
     }
   },
-  },
   {
     name: "Sodom's Beast/Draco",
     img: "Draco_2.png",
