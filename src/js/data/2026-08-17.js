@@ -799,7 +799,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Darius_III",
+    name: "Darius III",
     img: "Darius_III.png",
     opts: {
       class: [ "berserker"],
@@ -1147,7 +1147,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Frankenstein",
     img: "Frankenstein.png",
     opts: {
-      class: [ "berseker"],
+      class: [ "berserker"],
       gender: ["f"],
       rarity: ["4"],
       yearJP: ["2015"],
@@ -6806,6 +6806,7 @@ dataSet[dataSetVersion].characterData = [
       yearJP: ["2023"],
       yearNA: ["2025"],
       age: true,
+      arcadeOnly: true,
     }
   },
 
