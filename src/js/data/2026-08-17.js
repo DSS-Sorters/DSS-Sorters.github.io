@@ -5812,6 +5812,7 @@ dataSet[dataSetVersion].characterData = [
       extra: ["welfare"],
       yearJP: ["2024"],
       yearNA: ["2026"],
+      alt: true,
       age: true,
       jp: true,
     }
@@ -5839,6 +5840,7 @@ dataSet[dataSetVersion].characterData = [
       yearJP: ["2024"],
       yearNA: ["2026"],
       age: true,
+      alt: true,
       jp: true,
     }
   },
@@ -6476,7 +6478,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Gray_Lily_Saber.png",
     opts: {
       class: [ "saber"],
-      gender: [""],
+      gender: ["f"],
       rarity: ["4"],
       yearJP: ["2026"],
       yearNA: ["2028"],
